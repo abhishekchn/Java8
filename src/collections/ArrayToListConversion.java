@@ -9,6 +9,7 @@ public class ArrayToListConversion {
 
 	public static <T> List<T> ArrayToList(T array[]) {
 		List<T> list = new ArrayList<T>();
+		
 		for (T t : array) {
 			list.add(t);
 		}
